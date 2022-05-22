@@ -17,14 +17,15 @@ class MainActivity : AppCompatActivity() {
         btn_main.setOnClickListener {
             startActivity(Intent(this, MainActivity2::class.java))
         }
-
         btn_recept.setOnClickListener {
             startActivity(Intent(this, ReceptActivity::class.java))
         }
-
-
         btn_cabinet.setOnClickListener {
             startActivity(Intent(this, UserActivity::class.java))
         }
+        btn_admin.setOnClickListener {
+            startActivity(Intent(this, AdminActivity::class.java))
+        }
+
     }
 }
