@@ -13,19 +13,24 @@
         android:theme="@style/Theme.AsaudaEAT">
         <activity
             android:name=".AdminActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Администрация"/>
         <activity
             android:name=".UserActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Личный кабинет"/>
         <activity
             android:name=".Login.Register"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AsaudaEAT1"/>
         <activity
             android:name=".Login.Login"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AsaudaEAT1"/>
         <activity
             android:name=".Login.Choice"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AsaudaEAT1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,13 +39,16 @@
         </activity>
         <activity
             android:name=".KitchenActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Рецепты"/>
         <activity
             android:name=".ReceptActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Рецепты"/>
         <activity
             android:name=".MainActivity2"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Меню столовой"/>
         <activity
             android:name=".MainActivity"
             android:exported="true" />
