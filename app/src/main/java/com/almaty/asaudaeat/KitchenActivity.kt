@@ -31,6 +31,13 @@ class KitchenActivity : AppCompatActivity() {
             2-> imageView2.setImageResource(R.drawable.image_3)
             3-> imageView2.setImageResource(R.drawable.image_4)
             4-> imageView2.setImageResource(R.drawable.image_5)
+            5-> imageView2.setImageResource(R.drawable.image6)
+            6-> imageView2.setImageResource(R.drawable.image7)
+            7-> imageView2.setImageResource(R.drawable.image8)
+            8-> imageView2.setImageResource(R.drawable.image9)
+            9-> imageView2.setImageResource(R.drawable.image10)
+            10-> imageView2.setImageResource(R.drawable.image11)
+            11-> imageView2.setImageResource(R.drawable.image12)
 
         }
     }
