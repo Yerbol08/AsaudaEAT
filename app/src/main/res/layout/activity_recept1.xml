@@ -4,16 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminActivity">
-
+    tools:context=".Recept1Activity">
     <Button
-        android:id="@+id/recepts"
+        android:id="@+id/food1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
-        android:text="Рецепты"
+        android:text="первые блюда"
         app:icon="@drawable/countertop_outline"
         app:iconGravity="textTop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,16 +20,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_menu"
+        android:id="@+id/food2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="Меню столовой"
+        android:text="вторые блюда"
         app:icon="@drawable/countertop_outline"
         app:iconGravity="textTop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/recepts" />
+        app:layout_constraintTop_toBottomOf="@+id/food1" />
+
+    <Button
+        android:id="@+id/tort"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="десерты "
+        app:icon="@drawable/countertop_outline"
+        app:iconGravity="textTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

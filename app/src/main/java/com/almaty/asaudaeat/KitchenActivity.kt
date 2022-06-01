@@ -23,21 +23,21 @@ class KitchenActivity : AppCompatActivity() {
         imageView.setImageResource(image)
         text_kitchen.setText(text)
 
-        when(position){
-            0-> {
+        when(title){
+            R.string.tort1-> {
                 imageView2.setImageResource(R.drawable.image_1)
             }
-            1-> imageView2.setImageResource(R.drawable.image_2)
-            2-> imageView2.setImageResource(R.drawable.image_3)
-            3-> imageView2.setImageResource(R.drawable.image_4)
-            4-> imageView2.setImageResource(R.drawable.image_5)
-            5-> imageView2.setImageResource(R.drawable.image6)
-            6-> imageView2.setImageResource(R.drawable.image7)
-            7-> imageView2.setImageResource(R.drawable.image8)
-            8-> imageView2.setImageResource(R.drawable.image9)
-            9-> imageView2.setImageResource(R.drawable.image10)
-            10-> imageView2.setImageResource(R.drawable.image11)
-            11-> imageView2.setImageResource(R.drawable.image12)
+            R.string.tort2-> imageView2.setImageResource(R.drawable.image_2)
+            R.string.tort3-> imageView2.setImageResource(R.drawable.image_3)
+            R.string.tort4-> imageView2.setImageResource(R.drawable.image_4)
+            R.string.tort5-> imageView2.setImageResource(R.drawable.image_5)
+            R.string.sup1-> imageView2.setImageResource(R.drawable.image6)
+            R.string.sup2-> imageView2.setImageResource(R.drawable.image7)
+            R.string.sup3-> imageView2.setImageResource(R.drawable.image8)
+            R.string.sup4-> imageView2.setImageResource(R.drawable.image9)
+            R.string.second1-> imageView2.setImageResource(R.drawable.image10)
+            R.string.second2-> imageView2.setImageResource(R.drawable.image11)
+            R.string.second3-> imageView2.setImageResource(R.drawable.image12)
 
         }
     }

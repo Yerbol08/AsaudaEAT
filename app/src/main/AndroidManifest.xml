@@ -12,21 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AsaudaEAT">
         <activity
+            android:name=".Recept1Activity"
+            android:exported="false" />
+        <activity
             android:name=".AdminActivity"
             android:exported="false"
-            android:label="Администрация"/>
+            android:label="Администрация" />
         <activity
             android:name=".UserActivity"
             android:exported="false"
-            android:label="Личный кабинет"/>
+            android:label="Личный кабинет" />
         <activity
             android:name=".Login.Register"
             android:exported="false"
-            android:theme="@style/Theme.AsaudaEAT1"/>
+            android:theme="@style/Theme.AsaudaEAT1" />
         <activity
             android:name=".Login.Login"
             android:exported="false"
-            android:theme="@style/Theme.AsaudaEAT1"/>
+            android:theme="@style/Theme.AsaudaEAT1" />
         <activity
             android:name=".Login.Choice"
             android:exported="true"
@@ -40,15 +43,15 @@
         <activity
             android:name=".KitchenActivity"
             android:exported="false"
-            android:label="Рецепты"/>
+            android:label="Рецепты" />
         <activity
             android:name=".ReceptActivity"
             android:exported="false"
-            android:label="Рецепты"/>
+            android:label="Рецепты" />
         <activity
             android:name=".MainActivity2"
             android:exported="false"
-            android:label="Меню столовой"/>
+            android:label="Меню столовой" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

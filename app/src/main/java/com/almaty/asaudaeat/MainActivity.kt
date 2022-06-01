@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity2::class.java))
         }
         btn_recept.setOnClickListener {
-            startActivity(Intent(this, ReceptActivity::class.java))
+            startActivity(Intent(this, Recept1Activity::class.java))
         }
         btn_cabinet.setOnClickListener {
             startActivity(Intent(this, UserActivity::class.java))
